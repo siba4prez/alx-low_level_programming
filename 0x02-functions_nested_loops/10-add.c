@@ -1,6 +1,17 @@
 #include "main.h"
 
-int add(int a, int b)
+/**
+ * add - add two integars
+ *
+ * @i: first input
+ * @j: second input
+ * Return: sum of i & j
+ */
+
+
+int add(int i, int j)
 {
-	return (a + b);
+	int sum = i + j;
+
+	return (sum);
 }
